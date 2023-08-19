@@ -41,7 +41,7 @@ POST http://localhost:9000/api/jobs HTTP/1.1
 Content-Type: application/json
 
 {
-    "company" : "Samsung",
-    "job" : "DevelopeR Frond-End",
-    "payment" : 5000
+    "company" : "Medtronic",
+    "job" : "Operador",
+    "payment" : 2500
 }

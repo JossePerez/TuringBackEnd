@@ -31,3 +31,17 @@ Content-Type: application/json
 //Eliminar un usuario
 ###
 DELETE  http://localhost:9000/api/users/64e07e635428c1012d8bd1dd HTTP/1.1
+
+
+//=================================================================================================
+
+//Crear Trabajos
+###
+POST http://localhost:9000/api/jobs HTTP/1.1
+Content-Type: application/json
+
+{
+    "company" : "Samsung",
+    "job" : "DevelopeR Frond-End",
+    "payment" : 5000
+}

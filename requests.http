@@ -4,9 +4,9 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "name" : "Jose",
-    "age" : 25,
-    "email" : "jose@gmail.com"
+    "name" : "Pedro",
+    "age" : 45,
+    "email" : "pedro@gmail.com"
 }
 
 //Traer todos los usuarios
@@ -19,12 +19,12 @@ GET http://localhost:9000/api/users/64e0830b28f182aacbaf01b8 HTTP/1.1
 
 //Actualizar un usuario
 ###
-PUT  http://localhost:9000/api/users/64e07ad1257a92e1badcfab4 HTTP/1.1
+PUT  http://localhost:9000/api/users/64e083a228f182aacbaf01ba HTTP/1.1
 Content-Type: application/json
 
 {
-    "name" : "xD",
-    "age" : 1000,
+    "name" : "Berta",
+    "age" : 58,
     "email" : "jose@gmail.com"
 }
 
@@ -41,7 +41,7 @@ POST http://localhost:9000/api/jobs HTTP/1.1
 Content-Type: application/json
 
 {
-    "company" : "Medtronic",
+    "company" : "Plantronic",
     "job" : "Operador",
     "payment" : 2500
 }
